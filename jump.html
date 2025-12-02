@@ -5,18 +5,15 @@
 <title>跳转中…</title>
 <script>
 // 主链（GitHub）
-var mainUrl = "https://bianyujin.github.io/main/jump.html";
-// 国内镜像链（jsDelivr 加速）
-var mirrorUrl = "https://cdn.jsdelivr.net/gh/bianyujin/main@jump.html";
-// 先试国内镜像，失败了再走 GitHub
+var mainUrl = "https://hcnjp46vfwsz.feishu.cn/wiki/VaiwwEp0ji2jrkk5PEjcPCyhneg?from=from_copylink";
+// 国内镜像（jsDelivr 加速）
+var mirrorUrl = "https://cdn.jsdelivr.net/gh/bianyujin/main@main/jump.html";
 fetch(mirrorUrl, {method: 'HEAD', mode: 'no-cors'})
-  .then(() => location.replace(mirrorUrl))
+  .then(() => location.replace(mainUrl))
   .catch(() => location.replace(mainUrl));
 </script>
 </head>
-<body>
-<p style="text-align:center;margin-top:50px;font-size:18px;">
-  资源加载中，请稍等 1 秒…
-</p>
+<body style="text-align:center;padding-top:100px;font-size:18px;">
+正在加载资源，请稍等 1 秒…
 </body>
 </html>
