@@ -7,7 +7,7 @@
 // 主链（GitHub）
 var mainUrl = "https://hcnjp46vfwsz.feishu.cn/wiki/VaiwwEp0ji2jrkk5PEjcPCyhneg?from=from_copylink";
 // 国内镜像（jsDelivr 加速）
-var mirrorUrl = "https://cdn.jsdelivr.net/gh/bianyujin/main@main/jump.html";
+var mirrorUrl = "https://cdn.jsdelivr.net/gh/bianyujin/main/jump.html";
 fetch(mirrorUrl, {method: 'HEAD', mode: 'no-cors'})
   .then(() => location.replace(mainUrl))
   .catch(() => location.replace(mainUrl));
